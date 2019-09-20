@@ -1,0 +1,141 @@
+{
+  "_from": "strapi-plugin-documentation@3.0.0-beta.16.3",
+  "_id": "strapi-plugin-documentation@3.0.0-beta.16.3",
+  "_inBundle": false,
+  "_integrity": "sha512-3V5miDf6Y9Da0NfTDkVW8O1b3KzJrIZuIZiDnPCgbTgky+HoWWtfYCtzEl4WZge5tIoZz8KsDD2yrFGzqzi5Jg==",
+  "_location": "/strapi-plugin-documentation",
+  "_phantomChildren": {
+    "@babel/runtime": "7.6.0",
+    "classnames": "2.2.6",
+    "create-react-context": "0.3.0",
+    "csstype": "2.6.6",
+    "graceful-fs": "4.2.2",
+    "hoist-non-react-statics": "3.3.0",
+    "invariant": "2.2.4",
+    "jsonfile": "4.0.0",
+    "lodash.isfunction": "3.0.9",
+    "lodash.isobject": "3.0.2",
+    "lodash.tonumber": "4.0.3",
+    "loose-envify": "1.4.0",
+    "popper.js": "1.15.0",
+    "prop-types": "15.7.2",
+    "react-is": "16.9.0",
+    "react-lifecycles-compat": "3.0.4",
+    "typed-styles": "0.0.7",
+    "universalify": "0.1.2",
+    "warning": "4.0.3"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-documentation@3.0.0-beta.16.3",
+    "name": "strapi-plugin-documentation",
+    "escapedName": "strapi-plugin-documentation",
+    "rawSpec": "3.0.0-beta.16.3",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0-beta.16.3"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-documentation/-/strapi-plugin-documentation-3.0.0-beta.16.3.tgz",
+  "_shasum": "aa3ac44bfad9f1c70e04a1bd6f5c939e827a5870",
+  "_spec": "strapi-plugin-documentation@3.0.0-beta.16.3",
+  "_where": "/Users/SoSRiQuO/Documents/Projeler/Angular/menuapp/menuekraniapi",
+  "author": {
+    "name": "soupette",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "soupette"
+    },
+    {
+      "name": "Aurelsicoko",
+      "email": "aurelien@strapi.io"
+    },
+    {
+      "name": "lauriejim",
+      "email": "jim@strapi.io"
+    }
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "classnames": "^2.2.6",
+    "fs-extra": "^8.0.1",
+    "immutable": "^3.8.2",
+    "invariant": "^2.2.4",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "path-to-regexp": "^3.0.0",
+    "react": "^16.9.0",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.9.0",
+    "react-intl": "^2.9.0",
+    "react-redux": "^7.0.3",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-transition-group": "^4.0.1",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.1",
+    "redux-immutable": "^4.0.0",
+    "reselect": "^4.0.0",
+    "strapi-helper-plugin": "3.0.0-beta.16.3",
+    "swagger-ui-dist": "3.22.1"
+  },
+  "deprecated": false,
+  "description": "This is the description of the plugin.",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "36e4e73ad3a3b4d5635a17344b8c7ea382e0c5cf",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Strapi",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    },
+    {
+      "name": "soupette",
+      "email": "cyril@strapi.io"
+    },
+    {
+      "name": "lauriejim",
+      "email": "jim@strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-documentation",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Documentation",
+    "icon": "book",
+    "description": "Create an OpenAPI Document and visualize your API with SWAGGER UI."
+  },
+  "version": "3.0.0-beta.16.3",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=10.0.0",
+        "npm": ">=6.0.0"
+      },
+      "pkgid": "strapi-plugin-documentation@3.0.0-beta.16.3"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=10.0.0",
+        "npm": ">=6.0.0"
+      },
+      "pkgid": "strapi-plugin-documentation@3.0.0-beta.16.3"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "_from": "strapi-plugin-settings-manager@3.0.0-beta.16.3",
+  "_id": "strapi-plugin-settings-manager@3.0.0-beta.16.3",
+  "_inBundle": false,
+  "_integrity": "sha512-YIGagCqW5E91Iyz25BcmCUYPW2rP4z8FRKXgIFfoxO+ADkVj8zcjZJFmPvcL+RaqLfrZp6wqErLeZkFZBsqAxA==",
+  "_location": "/strapi-plugin-settings-manager",
+  "_phantomChildren": {
+    "glob": "7.1.4",
+    "interpret": "1.2.0",
+    "rechoir": "0.6.2"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-settings-manager@3.0.0-beta.16.3",
+    "name": "strapi-plugin-settings-manager",
+    "escapedName": "strapi-plugin-settings-manager",
+    "rawSpec": "3.0.0-beta.16.3",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0-beta.16.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-settings-manager/-/strapi-plugin-settings-manager-3.0.0-beta.16.3.tgz",
+  "_shasum": "9f5eb128c92a77e74e56ce300dee2f59434bed33",
+  "_spec": "strapi-plugin-settings-manager@3.0.0-beta.16.3",
+  "_where": "/Users/SoSRiQuO/Documents/Projeler/Angular/menuapp/menuekraniapi",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "immutable": "^3.8.2",
+    "invariant": "^2.2.1",
+    "lodash": "^4.17.11",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.0",
+    "react-intl": "^2.8.0",
+    "react-redux": "^7.0.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-transition-group": "^2.5.0",
+    "reactstrap": "^5.0.0",
+    "redux": "^4.0.1",
+    "reselect": "^3.0.1",
+    "shelljs": "^0.7.8",
+    "strapi-helper-plugin": "3.0.0-beta.16.3"
+  },
+  "deprecated": false,
+  "description": "Strapi plugin to manage settings.",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "36e4e73ad3a3b4d5635a17344b8c7ea382e0c5cf",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-settings-manager",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Settings Manager",
+    "icon": "wrench",
+    "description": "settings-manager.plugin.description"
+  },
+  "version": "3.0.0-beta.16.3",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=10.0.0",
+        "npm": ">=6.0.0"
+      },
+      "pkgid": "strapi-plugin-settings-manager@3.0.0-beta.16.3"
+    }
+  ]
+}
