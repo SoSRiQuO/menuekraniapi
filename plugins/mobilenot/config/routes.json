@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/mobile/send",
+      "handler": "Mobilenot.index",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
