@@ -30,7 +30,7 @@ module.exports = {
               title: _title,
               body: _body
             },
-            sound:"defauld",
+            sound:"default",
             badge:_badge
           }
         },

@@ -18,7 +18,7 @@ module.exports = {
     const { interest, title, body, badge } = ctx.request.body;
         try {
       // Send an not to the user.
-      await strapi.plugins['mobilenot'].services.email.mobile({
+      await strapi.plugins['mobilenot'].services.mobile({
         interest: interest,
         title:  title,
         body: body,

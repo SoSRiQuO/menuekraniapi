@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "POST",
-      "path": "/mobile/send",
+      "path": "/mobile",
       "handler": "Mobilenot.index",
       "config": {
         "policies": []
