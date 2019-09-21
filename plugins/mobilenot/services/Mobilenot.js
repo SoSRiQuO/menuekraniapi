@@ -13,42 +13,38 @@ let pushNotifications = new PushNotifications({
 });
 
 module.exports = {
-  mobile: (options, cb) => {
-    return new Promise((resolve, reject) => {
-
-      let _interest = options.interest;
+  mobile: async function(options) {
+    let _interest = options.interest;
       let _title = options.title
       let _badge = options.badge
       let _body = options.body
-
-      console.log(_interest)
-
-      pushNotifications.publish([_interest], {
-        apns: {
-          aps: {
-            alert: {
-              title: _title,
-              body: _body
-            },
-            sound:"default",
-            badge:_badge
-          }
-        },
-        fcm:{
-          notification:{
-            title: _title,
-            body: _body,
-            sound: "default",
-            icon: "ic_launcher_small"
-            }
-          }
-      }).then((publishResponse) => {
-          resolve()
-        console.log('Just published:', publishResponse.publishId);
-      }).catch((error) => {
-        reject(error)
-        console.log('Error:', error);
-      });
-    });
-  }
+    return new Promise((resolve, reject) => {
+              pushNotifications.publish([_interest], {
+                  apns: {
+                    aps: {
+                      alert: {
+                        title: _title,
+                        body: _body
+                      },
+                      sound:"default",
+                      badge:_badge
+                    }
+                  },
+                  fcm:{
+                    notification:{
+                      title: _title,
+                      body: _body,
+                      sound: "default",
+                      icon: "ic_launcher_small"
+                      }
+                    }
+            }).then((publishResponse) => {
+            resolve(publishResponse)
+            console.log('Just published:', publishResponse.publishId);
+            }).catch((error) => {
+              reject(error)
+              console.log('Error:', error);
+            });
+        })
+    }
 };
