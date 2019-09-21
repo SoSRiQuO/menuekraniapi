@@ -10,14 +10,14 @@
   "dependencies": {},
   "author": {
     "name": "A Strapi developer",
-    "email": "",
-    "url": ""
+    "email": "ademzeybek@gmail.com",
+    "url": "https://api.menuekrani.com"
   },
   "maintainers": [
     {
       "name": "A Strapi developer",
-      "email": "",
-      "url": ""
+      "email": "ademzeybek@gmail.com",
+      "url": "https://api.menuekrani.com"
     }
   ],
   "engines": {
